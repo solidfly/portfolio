@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 50px;
+  background-color: #D1D0CE;
+}
+
+.about-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+
+.portfolio-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.portfolio-grid-item {
+  border: 1px solid #FFF;
+  width: 300px;
+  height: 300px;
+}
+
+.contact-container {
+  padding-top: 25px;
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contact-item {
+  width: 300px;
+  height: 300px;
+}
+
+.subscribe > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.subscribe > li:last-of-type {
+  margin-right: 0;
+}
+
+.subscribe:hover .subscribe-form {
+  display: flex;
+  flex-direction: column;
+  background: #B2D6FF;
+  border-radius: 5px;
+  padding: 60px 15px 0px 20px;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  z-index: 1;
+}
+
+.subscribe-form {
+  display: none;
+}
+
+.subscribe-form li {
+  list-style: none;
+  border-bottom: 1px solid #FFF;
+  padding: 10px;
+}
+
+.subscribe-form li:last-of-type {
+  border-bottom: none;
+}
+
+.subscribe {
+  position: relative;
+}
+
+.dropdown > span {
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}

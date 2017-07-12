@@ -29,11 +29,11 @@ body {
 }
 
 .item {
-  border: 12px solid #808080;
+  border: 5px solid #808080;
 }
 
 .item:hover {
-  border: 12px solid #555555;
+  border: 5px solid #555555;
 }
 
 .item {

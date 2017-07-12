@@ -6,3 +6,80 @@
 body {
   padding-top: 70px;
 }
+
+.nav a {
+  font-size: 18pt;
+}
+
+.navbar {
+  background-color: rgba(211,211,211,0.8);
+}
+
+.navbar-brand {
+  width: 105px;
+}
+
+.nav-item {
+  align-items: center;
+}
+
+.brand-circle {
+  border: 1px solid #808080;
+}
+
+h1 {
+  position: absolute;
+  top: 180px;
+  left: 85px;
+  width: 100%;
+}
+
+h1 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   padding: 10px;
+display: none;
+}
+
+h1:hover {
+  display: block;
+}
+
+h2 {
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  width: 100%;
+
+}
+
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   padding: 10px;
+   display: none;
+}
+
+h2:hover {
+  display: block
+}
+
+.item {
+  border: 15px solid #808080;
+}
+
+.item:hover {
+  border: 15px solid #555555;
+}
+
+.item {
+  filter: grayscale(100%);
+}
+
+.item:hover {
+  filter: none;
+}
+
+}

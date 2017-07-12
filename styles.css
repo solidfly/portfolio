@@ -27,45 +27,6 @@ body {
   border: 1px solid #808080;
 }
 
-h1 {
-  position: absolute;
-  top: 180px;
-  left: 85px;
-  width: 100%;
-}
-
-h1 span {
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   padding: 10px;
-display: none;
-}
-
-h1:hover {
-  display: block;
-}
-
-h2 {
-  position: absolute;
-  top: 220px;
-  left: 100px;
-  width: 100%;
-
-}
-
-h2 span {
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   padding: 10px;
-   display: none;
-}
-
-h2:hover {
-  display: block
-}
-
 .item {
   border: 15px solid #808080;
 }

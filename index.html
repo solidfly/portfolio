@@ -11,7 +11,7 @@
   <body id="portfolio" class="home">
 
     <header>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
@@ -20,14 +20,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
 		        </button>
-            <a class="navbar-brand" href="#">James Lindsay</a>
+            <a class="navbar-brand" href="#"><img src="images/solidfly.jpg" class="img-responsive img-circle" alt="Profile Picture"></a>
+            <p class="navbar-text">James - Ninja Coder Wannabe</p>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li class="nav-item">
-                <a class="nav-link" href="#about"><span class="sr-only">(current)</span>About</a></li>
+                <a class="nav-link" href="#portfolio"><span class="sr-only">(current)</span>Portfolio</a></li>
               <li class="nav-item">
-                <a href="#portfolio">Portfolio</a></li>
+                <a href="#about">About</a></li>
               <li class="nav-item">
                 <a href="#contact">Contact</a></li>
             </ul>
@@ -36,34 +37,53 @@
       </nav>
     </header>
 
+    <div class="container" id="portfolio">
+      <div class="row">
 
-    <section class="portfolio">
-
-      <div class="container">
-        <div class="row">
-
-          <div class="col-sm-6 col-md-4">
-            <a href="#">
-            <img class="img-circle center-block" src="images/one.svg" alt="ONE">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a href="#">
-            <img class="img-circle center-block" src="images/one.svg" alt="ONE">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a href="#">
-            <img class="img-circle center-block" src="images/one.svg" alt="ONE">
-            </a>
-            </div>
-
+        <div class="col-sm-6 col-md-4 form-group">
+          <a href="#">
+            <img class="img-circle center-block item" src="images/screenshot.png" alt="ONE">
+          </a>
+          <h1><span class="text">FCC Tribute Page</span></h1>
+          <h2><span class="text">"Bucky" Fuller</span></h2>
         </div>
-      </div>
 
-    </section>
+        <div class="col-sm-6 col-md-4 form-group">
+          <a href="#">
+            <img class="img-circle center-block item" src="images/two.svg" alt="TWO">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 form-group">
+          <a href="#">
+            <img class="img-circle center-block item" src="images/three.svg" alt="THREE">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 form-group">
+          <a href="#">
+            <img class="img-circle center-block item" src="images/four.svg" alt="FOUR">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 form-group">
+          <a href="#">
+            <img class="img-circle center-block item" src="images/five.svg" alt="FIVE">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container" id="about">
+
+    </div>
+
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </body>
 </html>

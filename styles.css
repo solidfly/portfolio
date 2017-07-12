@@ -20,26 +20,12 @@ body {
   width: 105px;
 }
 
-.nav-item {
-  align-items: center;
-}
-
-.brand-circle {
-  border: 1px solid #808080;
-}
-
 .item {
   border: 5px solid #808080;
-}
-
-.item:hover {
-  border: 5px solid #555555;
-}
-
-.item {
   filter: grayscale(100%);
 }
 
 .item:hover {
+  border: 5px solid #555555;
   filter: none;
 }

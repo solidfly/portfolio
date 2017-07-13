@@ -58,7 +58,7 @@ h4 {
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 400px) {
 
   .navbar-brand {
     width: 80px;

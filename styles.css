@@ -50,7 +50,7 @@ body {
 
 }
 
-h3 {
+h5 {
 position: absolute;
 top: 88%;
 left: 33%;
@@ -62,7 +62,7 @@ left: 33%;
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .navbar-brand {
     width: 80px;
   }

@@ -25,6 +25,7 @@ body {
 
 .form-group {
   filter: grayscale(100%);
+  padding-bottom: 30px;
 }
 
 .form-group:hover {
@@ -44,8 +45,8 @@ body {
 .fcc-logo {
   width: 20%;
   position: absolute;
-  top: 165px;
-  left: 60px;
+  top: 70%;
+  left: 25%;
 
 }
 
@@ -62,11 +63,28 @@ left: 33%;
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  .item {
+  .navbar-brand {
+    width: 80px;
+  }
+
+    .item {
     width: 45%;
     border: 3px solid #808080;
   }
   .item:hover {
     border: 4px solid #555555;
+  }
+
+  .fcc-logo {
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    left: 100%;
+  }
+
+  h5 {
+    position: absolute;
+    top: 30%;
+    left: 95%;
   }
 }

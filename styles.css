@@ -3,9 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  padding-top: 70px;
+  padding-top: 85px;
 }
 
 .nav a {
@@ -20,12 +19,54 @@ body {
   width: 105px;
 }
 
-.item {
-  border: 5px solid #808080;
+.nav-link {
+  justify-content: center;
+}
+
+.form-group {
   filter: grayscale(100%);
 }
 
-.item:hover {
-  border: 5px solid #555555;
+.form-group:hover {
   filter: none;
+}
+.item {
+  width: 70%;
+  border: 8px solid #808080;
+
+}
+
+.item:hover {
+  border: 8px solid #555555;
+  filter: none;
+}
+
+.fcc-logo {
+  width: 20%;
+  position: absolute;
+  top: 165px;
+  left: 60px;
+
+}
+
+h3 {
+position: absolute;
+top: 88%;
+left: 33%;
+}
+
+.item:hover > .fcc-logo {
+  filter: none;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .item {
+    width: 45%;
+    border: 3px solid #808080;
+  }
+  .item:hover {
+    border: 4px solid #555555;
+  }
 }

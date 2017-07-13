@@ -46,14 +46,15 @@ body {
   width: 20%;
   position: absolute;
   top: 70%;
-  left: 25%;
+  left: 20%;
 
 }
 
 h5 {
+  font-family: "Verdana", Times, serif;
 position: absolute;
-top: 88%;
-left: 33%;
+top: 85%;
+left: 40%;
 }
 
 .item:hover > .fcc-logo {

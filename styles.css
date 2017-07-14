@@ -53,6 +53,7 @@ article .sub-title {
 
 .article-img {
   border: 8px solid #808080;
+  max-width: 250px;
 }
 
 .article-img:hover {

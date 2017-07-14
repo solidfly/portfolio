@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   padding-top: 85px;
 }
@@ -20,66 +19,49 @@ body {
   width: 105px;
 }
 
-.form-group {
+article {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  flex-wrap: wrap;
   filter: grayscale(100%);
-  padding-bottom: 40px;
 }
 
-.form-group:hover {
+article:hover {
   filter: none;
 }
 
-.item {
+article header {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  align-items: center;
+  justify-content: flex-start;;
+  border: 1px solid; /* for debugging */
+}
+
+article .title {
+  font-size: 2em;
+  border: 1px solid; /* for debugging */
+  color: #008000;
+}
+
+article .sub-title {
+  border: 1px solid; /* for debugging */
+  color: #008000;
+}
+
+.article-img {
   border: 8px solid #808080;
 }
 
-.item:hover {
+.article-img:hover {
   border: 8px solid #555555;
 }
 
-.fcc-logo {
+figure {
+  position: absolute;
+  top: 5%;
+  right:5%;
   width: 20%;
-  position: absolute;
-  top: 53%;
-  left: 13%;
-}
-
-h4 {
-  font-family: "Verdana", Times, serif;
-  position: absolute;
-  color: gray;
-  top: 85%;
-  left: 35%;
-
-}
-
-h4:hover {
-  color: black;
-}
-
-img {
-  max-width: 300px;
-}
-
-
-
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-
-  .navbar-brand {
-    width: 80px;
-  }
-
-  .item {
-    width: 65%;
-    border: 3px solid #808080;
-  }
-  .item:hover {
-    border: 3px solid #555555;
-  }
-
-  .fcc-logo {
-    width: 15%;
-    left: 17%;
-  }
 }

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-top: 20px;
+}
+
 
 .nav a {
   font-size: 18pt;
@@ -13,36 +17,34 @@
   background-color: rgba(211,211,211,0.8);
 }
 
- .navbar-brand {
+.navbar-brand {
   width: 105px;
 }
 
 .portfolio {
   display: flex;
   justify-content: center;
-}
 
+}
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
   max-width: 950px;
   justify-content: space-around;
+
 }
 
 .spacer {
   width: 300px;
+
 }
 
 article {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  filter: grayscale(100%);
   width: 300px;
-}
-
-article:hover {
-  filter: none;
+  height: 300px;
 }
 
 article header {
@@ -51,29 +53,46 @@ article header {
   height: 90px;
   align-items: center;
   justify-content: flex-start;
+
 }
 
 article .title {
-  font-size: 2em;
+  font-size: 1.5em;
+
   color: #008000;
 }
 
-article .sub-title {
-  color: #008000;
-}
 
 .article-img {
+  filter: grayscale(100%);
   border: 8px solid #808080;
-  width: 250px;
+  width: 200px;
+
 }
 
 .article-img:hover {
   border: 8px solid #555555;
+  filter: none;
 }
 
-figure {
+.logo-group {
+position: relative;
+top: 45px;
+
+}
+
+.logo {
+  width: 50px;
+  filter: grayscale(100%);
+
+}
+
+.logo:hover {
+  filter: none;
+}
+
+.fcc-logo-container {
   position: relative;
-  top: 65px;
-  left: 95px;
-  width: 80px;
+  top: 285px;
+
 }

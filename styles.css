@@ -8,13 +8,12 @@ body {
   padding-top: 20px;
 }
 
-
 .nav a {
-  font-size: 18pt;
+  font-size: 1.2em;
 }
 
 .navbar {
-  background-color: rgba(211,211,211,0.8);
+  background-color: rgba(211,211,211,0.9);
 }
 
 .navbar-brand {
@@ -24,19 +23,16 @@ body {
 .portfolio {
   display: flex;
   justify-content: center;
-
 }
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
   max-width: 950px;
-  justify-content: space-around;
-
+  justify-content: center;
 }
 
 .spacer {
   width: 300px;
-
 }
 
 article {
@@ -50,24 +46,19 @@ article {
 article header {
   display: flex;
   flex-direction: column;
-  height: 90px;
   align-items: center;
   justify-content: flex-start;
-
 }
 
 article .title {
   font-size: 1.5em;
-
   color: #008000;
 }
-
 
 .article-img {
   filter: grayscale(100%);
   border: 8px solid #808080;
   width: 200px;
-
 }
 
 .article-img:hover {
@@ -76,15 +67,13 @@ article .title {
 }
 
 .logo-group {
-position: relative;
-top: 45px;
-
+  position: relative;
+  top: 45px;
 }
 
 .logo {
   width: 50px;
   filter: grayscale(100%);
-
 }
 
 .logo:hover {
@@ -94,5 +83,12 @@ top: 45px;
 .fcc-logo-container {
   position: relative;
   top: 285px;
+}
 
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .navbar-text {
+    display: none;
+  }
+  }
 }

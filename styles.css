@@ -1,104 +1,104 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  	padding-top: 20px;
-  	background-color: #666666;
+  padding-top: 20px;
+  background-color: #666666;
 }
 
 .nav a {
-  	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .navbar-brand {
- 	width: 105px;
+  width: 105px;
 }
 
 .about {
-  	padding-top: 100px;
-	height: 450px;
+  padding-top: 100px;
+  height: 450px;
 }
 
 article {
-  	display: flex;
- 	flex-direction: column-reverse;
- 	align-items: center;
-	height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
 article header {
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 article .title {
-  	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .article-img {
-  	filter: grayscale(100%);
- 	border: 8px solid #808080;
-  	width: 200px;
+  filter: grayscale(100%);
+  border: 8px solid #808080;
+  width: 200px;
 }
 
 .article-img:hover {
-  	border: 8px solid #555555;
-  	filter: none;
+  border: 8px solid #555555;
+  filter: none;
 }
 
 .logo-group {
-  	position: relative;
-  	top: 45px;
+  position: relative;
+  top: 45px;
 }
 
 .logo {
-  	width: 50px;
-  	filter: grayscale(100%);
+  width: 50px;
+  filter: grayscale(100%);
 }
 
 .logo:hover {
-  	filter: none;
+  filter: none;
 }
 
 .fcc-logo-container {
-  	position: relative;
-  	top: 285px;
+  position: relative;
+  top: 285px;
 }
 
 .contact {
-  	padding-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 footer {
-  	background-color: rgba(0,0,0,0.7);
-  	color: rgb(190, 190, 190);
- 	padding-left: 50px;
-  	padding-right: 50px;
+  background-color: rgba(0,0,0,0.7);
+  color: rgb(190, 190, 190);
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .footer-container {
-  	height: 100px;
-  	display: flex;
-  	align-items: center;
-	justify-content: space-between;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .social-icon-group {
-  	display: flex;
-  	align-items: center;
-  	justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .social-media-icon {
- 	display: flex;
- 	width: 50px;
-  	padding-left: 10px;
-  	padding-right: 10px;
+  display: flex;
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 

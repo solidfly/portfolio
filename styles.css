@@ -1,216 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>James Lindsay Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-  <body id="portfolio" class="home">
+body {
+  	padding-top: 20px;
+  	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ 	background-blend-mode: multiply,multiply;
+}
 
-    <header>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-		          <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-		        </button>
-            <a class="navbar-brand" href="#">
-              <img src="images/solidfly.jpg" class="img-responsive img-circle" alt="Profile Picture"></a>
-            <p class="navbar-text">Ninja Coder Wannabe</p>
-          </div>
-          <div class="collapse navbar-collapse " id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="nav-item navbar-right">
-                <a class="nav-link" href="#about"><span class="sr-only">(current)</span>About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+.nav a {
+  	font-size: 1.2em;
+}
 
-    <div class="about" id="about">
-      <div class="container-fluid">
-        <div class="row">
-          <h1 class="text-center">James Lindsay</h1>
-          <h2 class="text-center">design / develop</h2>
-          <p class="text-center">explore</p>
-        </div>
-      </div>
-    </div>
+.navbar-brand {
+ 	width: 105px;
+}
 
-    <div class="projects" id="projects">
-      <div class="container">
-        <div class="row">
+.about {
+  	padding-top: 100px;
+}
 
-          <div class="col-md-4 col-sm-6 project-item">
-            <article>
-              <header>
-                <h1 class="title">Tribute Page</h1>
-              </header>
-              <div>
-                <a href="https://codepen.io/Jm535/pen/BpqJEV" target="blank">
-                  <img class="img-circle img-responsive article-img" src="images/screenshot.png" alt="Tribute Page"></a>
-              </div>
-              <div class="logo-group">
-                <a href="https://www.w3.org/html/" target="_blank">
-                  <img class="logo" src="images/html-wordmark-logo.png" alt="HTML5"></a>
-                <a href="http://getbootstrap.com" target="_blank">
-                  <img class="logo" src="images/bootstrap-logo.png" alt="Bootstrap"></a>
-                <a href="https://www.w3.org/css/" target="_blank">
-                  <img class="logo" src="images/css-wordmark-logo.png" alt="CSS3"></a>
-              </div>
-              <div class="fcc-logo-container">
-                <a href="https://www.freecodecamp.com/challenges/build-a-tribute-page" target="_blank">
-                  <img class="logo img-circle" src="http://bit.ly/2fFn58N" alt="FreeCodeCamp"></a>
-              </div>
-            </article>
-          </div>
+article {
+  	display: flex;
+ 	flex-direction: column-reverse;
+ 	align-items: center;
+}
 
-          <div class="col-md-4 col-sm-6 project-item">
-            <article>
-              <header>
-                <h1 class="title">Random Quotes</h1>
-              </header>
-              <div>
-                <a href="#">
-                  <img class="img-circle img-responsive article-img" src="images/two.svg" alt="TWO"></a>
-              </div>
-              <div class="logo-group">
-                <a href="#" target="_blank"><img class="logo" src="images/js-wordmark-logo.png" alt="Javascript"></a>
-              </div>
-              <div class="fcc-logo-container">
-                <a href="https://www.freecodecamp.com/challenges/build-a-random-quote-machine" target="_blank">
-                  <img class="logo img-circle" src="http://bit.ly/2fFn58N" alt="FCC Logo"></a>
-              </div>
-            </article>
-          </div>
+article header {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+}
 
-          <div class="col-md-4 col-sm-6 project-item">
-            <article>
-              <header>
-                <h1 class="title">Local Weather</h1>
-              </header>
-              <div>
-                <a href="#">
-                  <img class="img-circle img-responsive article-img" src="images/three.svg" alt="THREE"></a>
-              </div>
-              <div class="logo-group">
-                <a href="#" target="_blank"><img class="logo" src="images/js-wordmark-logo.png" alt="Javascript"></a>
-              </div>
-              <div class="fcc-logo-container">
-                <a href="https://www.freecodecamp.com/challenges/show-the-local-weather" target="_blank">
-                  <img class="logo img-circle" src="http://bit.ly/2fFn58N" alt="FCC Logo"></a>
-              </div>
-            </article>
-          </div>
+article .title {
+  	font-size: 1.5em;
+}
 
-          <div class="col-md-4 col-sm-6 project-item">
-            <article>
-              <header>
-                <h1 class="title">Wiki Viewer</h1>
-              </header>
-              <div>
-                <a href="#">
-                  <img class="img-circle img-responsive article-img" src="images/four.svg" alt="FOUR"></a>
-              </div>
-              <div class="logo-group">
-                <a href="#" target="_blank">
-                  <img class="logo" src="images/js-wordmark-logo.png" alt="Javascript"></a>
-              </div>
-              <div class="fcc-logo-container">
-                <a href="https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer" target="_blank">
-                  <img class="logo img-circle" src="http://bit.ly/2fFn58N" alt="FCC Logo"></a>
-              </div>
-            </article>
-          </div>
+.article-img {
+  	filter: grayscale(100%);
+ 	border: 8px solid #808080;
+  	width: 200px;
+}
 
-          <div class="col-md-4 col-sm-6 project-item">
-            <article>
-              <header>
-                <h1 class="title">Twitchtv</h1>
-              </header>
-              <div>
-                <a href="#">
-                  <img class="img-circle img-responsive article-img" src="images/five.svg" alt="FIVE"></a>
-              </div>
-              <div class="logo-group">
-                <a href="#" target="_blank"><img class="logo" src="images/js-wordmark-logo.png" alt="Javascript"></a>
-              </div>
-              <div class="fcc-logo-container">
-                <a href="https://www.freecodecamp.com/challenges/use-the-twitchtv-json-apie" target="_blank">
-                  <img class="logo img-circle" src="http://bit.ly/2fFn58N" alt="FCC Logo">
-                </a>
-              </div>
-            </article>
-          </div>
+.article-img:hover {
+  	border: 8px solid #555555;
+  	filter: none;
+}
 
-        </div>
-      </div>
-    </div>
-    <!--end of portfolio -->
+.logo-group {
+  	position: relative;
+  	top: 45px;
+}
 
-    <div class="container-fluid contact" id="contact">
-      <h3 class="text-center">Contact me</h3>
-				<div class="row">
-					<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+.logo {
+  	width: 50px;
+  	filter: grayscale(100%);
+}
 
-            <form>
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Name">
-							</div>
-							<div class="form-group">
-								<label for="email" class="sr-only">Email address</label>
-								<input type="email" class="form-control" id="email" placeholder="E-mail address">
-							</div>
-							<div class="form-group">
-								<label class="sr-only">Message</label>
-								<textarea class="form-control" rows="4" placeholder="Message"></textarea>
-							</div>
-							<div class="form-group">
-								<button type="Submit" class="btn btn-default center-block">Send</button>
-							</div>
-						</form>
+.logo:hover {
+  	filter: none;
+}
 
-          </div>
-				</div>
-		</div>
+.fcc-logo-container {
+  	position: relative;
+  	top: 285px;
+}
 
-	  <footer>
-		  <div class="container">
-        <div class="footer-container">
-			    <h5>&#169; James Lindsay</h5>
-          <div class="social-icon-group">
-            <div class="social-media-icon">
-		          <a href="https://github.com/solidfly" target="_blank"><img class="img-responsive" src="images/octocat.png" alt="github"></a>
-				    </div>
-            <div class="social-media-icon">
-					    <a href="https://www.linkedin.com/in/webjm5/" target="_blank"><img class="img-responsive" src="images/linkedin.png" alt="linkedin"></a>
-				    </div>
-				    <div class="social-media-icon">
-					    <a href="https://twitter.com/tailoredtinker" target="_blank"><img class="img-responsive img-rounded" src="images/twitter.png" alt="twitter"></i></a>
-				    </div>
-			    </div>
-        </div>
-      </div>
-	  </footer>
+.contact {
+  	padding-top: 60px;
+}
+
+footer {
+  	background-color: rgba(0,0,0,0.7);
+  	color: rgb(190, 190, 190);
+ 	padding-left: 50px;
+  	padding-right: 50px;
+}
+
+.footer-container {
+  	height: 100px;
+  	display: flex;
+  	align-items: center;
+	justify-content: space-between;
+}
+
+.social-icon-group {
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+}
+
+.social-media-icon {
+ 	display: flex;
+ 	width: 50px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+}
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  </body>
-</html>
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .navbar-text {
+    display: none;
+  }
+}

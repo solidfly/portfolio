@@ -25,6 +25,7 @@ article {
   	display: flex;
  	flex-direction: column-reverse;
  	align-items: center;
+	height: 300px;
 }
 
 article header {
